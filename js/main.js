@@ -52,7 +52,7 @@ function processData(data) {
 //get data function to retrieve geojson
 function getData(map, attributes){
     //load the geoJSON data
-    $.ajax("data/immigration.geojson", {
+    $.ajax("data/test.json", {
         dataType: "json",
         success: function(response){
             var attributes = processData (response);
